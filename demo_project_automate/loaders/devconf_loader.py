@@ -11,7 +11,7 @@ class DevConfLoader(Loader, file_extension=".devconf"):
     """DevConf file loader that loads the data from a .devconf file."""
 
     def load(self, file_location: pathlib.Path) -> str:
-        """Load the CSV file into a DataFrame then makes necessary adjustments.
+        """Load the devconf file into a DataFrame then makes necessary adjustments.
 
         :param file_location: the path of the devconf file.
         :return: the value of the file.
