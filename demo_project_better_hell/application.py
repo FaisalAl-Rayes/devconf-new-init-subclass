@@ -37,6 +37,6 @@ if __name__ == "__main__":
 
     print(f"Loading {file_path} ...")
     file_content = loader.load(file_location=file_path)
-    print(f"Content of file {file_path}:\n{file_content}")
+    print(f"Content of file:\n\n{file_content}")
 
     print("----------------------------------------------------------------------------------------")
